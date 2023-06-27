@@ -14,7 +14,7 @@ span {
         display: block;
         font-family: monospace;
         white-space: nowrap;
-        border-right: 4px solid;
+        border-right: 7px solid;
         width: 45ch;
     
         animation: typing 4s steps(12), 
