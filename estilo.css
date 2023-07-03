@@ -9,19 +9,19 @@ html{
     /* me permite deslizar cuando hago clic en los links del menu */
     scroll-behavior: smooth;
 }
-/* Efecto maquina de escribir */
-span {
+/* Efecto maquina de escribir*/
+.inicio span {
         display: block;
         font-family: monospace;
         white-space: nowrap;
         border-right: 7px solid;
         width: 45ch;
     
-        animation: typing 4s steps(12), 
-        blink .5s infinite step-end alternate;
+        animation: typing 4s steps(20), 
+        blink .3s infinite step-end alternate;
         overflow: hidden;
     }
-    
+
     @keyframes typing { 
       from { width: 0}
     }
